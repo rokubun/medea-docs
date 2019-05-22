@@ -30,5 +30,6 @@ In summary:
   the uncertainty in the Up direction.
 - All the measurements are logged in an SD card that can be inserted in the
   available SD card slot
-- In the back of the board 
+- In the back of the board there is a JST connector by which to send data
+  to drone controllers such as e.g. Pixhawk as well as input trigger events
 
