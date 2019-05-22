@@ -1,9 +1,19 @@
-site_name: MEDEA Documentation
+site_name: ""
 theme:
   name: material
+  logo: 'https://www.rokubun.cat/assets/images/medea_logo.png'
 nav:
   - Home: index.md
   - 'Log format': format.md
 extra_css:
   - 'stylesheets/extra.css'
-
+repo_name: 'rokuun/medea-docs'
+repo_url: 'https://github.com/rokubun/medea-docs'
+extra:
+  social:
+    - type: 'globe'
+      link: 'https://www.rokubun.cat'
+    - type: 'twitter'
+      link: 'https://twitter.com/rokubn'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/rokubun/'

@@ -6,3 +6,7 @@
 .md-footer-nav__inner{
     display: none;
 } 
+
+.md-header-nav__button.md-logo * {
+    width: 135px;
+}
