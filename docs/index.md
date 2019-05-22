@@ -10,7 +10,7 @@ This receiver is based on the u-blox ZED-F9P chipset.
 This section includes a description of the sensors and chips included in 
 the MEDEA sensor board. 
 
-![MEDEA sensor board breakout](MedeaBreakout.png "MEDEA Sensor board breakout")
+![MEDEA sensor board breakout](images/MedeaBreakout.png "MEDEA Sensor board breakout")
 
 In summary:
 
