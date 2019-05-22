@@ -1,3 +1,8 @@
 .md-header {
     background-color: #f63;
 } 
+
+
+.md-footer-nav__inner{
+    display: none;
+} 
