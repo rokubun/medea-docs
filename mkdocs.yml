@@ -4,6 +4,7 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
+  - 'Log format': format.md
 extra_css:
   - 'stylesheets/extra.css'
 
