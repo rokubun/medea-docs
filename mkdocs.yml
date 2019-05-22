@@ -1,0 +1,9 @@
+site_name: MEDEA Documentation
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - About: about.md
+extra_css:
+  - 'stylesheets/extra.css'
+
