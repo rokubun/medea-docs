@@ -14,7 +14,7 @@ nav:
   - 'Log format': format.md
 extra_css:
   - 'stylesheets/extra.css'
-repo_name: 'rokuun/medea-docs'
+repo_name: 'rokubun/medea-docs'
 repo_url: 'https://github.com/rokubun/medea-docs'
 extra:
   social:
