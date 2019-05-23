@@ -1,12 +1,22 @@
-.md-header {
-    background-color: #f63;
-} 
-
-
 .md-footer-nav__inner{
     display: none;
 } 
 
 .md-header-nav__button.md-logo * {
     width: 135px;
+}
+
+.md-header-nav__button.md-rokubun-logo * {
+    width: 40px;
+    margin-top: -0.4rem;
+    height: 40px;
+}
+
+@media only screen and (max-width: 76.1875em) {
+    .md-header-nav__button.md-icon--home, .md-header-nav__button.md-rokubun-logo {
+        display: none;
+    }
+    .md-nav__button img {
+        width: 2em;
+    }
 }

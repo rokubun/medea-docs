@@ -1,7 +1,14 @@
 site_name: ""
+site_url: "https://medea.docs.rokubun.cat"
 theme:
   name: material
   logo: 'https://www.rokubun.cat/assets/images/medea_logo.png'
+  favicon: 'images/favicon.ico'
+  palette:
+    primary: 'deep orange'
+    accent: 'blue grey'
+  custom_dir: 'custom'
+  rokubun_url: 'https://www.rokubun.cat'
 nav:
   - Home: index.md
   - 'Log format': format.md
