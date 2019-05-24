@@ -6,6 +6,16 @@ This receiver is based on the u-blox ZED-F9P chipset.
 
 <div style="text-align: center;"><img src="images/medea_3d.png" style="width: 400px;"></div>
 
+<script src="javascripts/stl_viewer.min.js"></script>
+<div id="stl_cont" style="width: 800px; height: 400px"></div>
+<script>
+	var stl_viewer=new StlViewer(document.getElementById("stl_cont"), 
+                                {   zoom: 100,
+                                    models: [ {id:0, filename:"/images/medea_3d.stl", color:"#cccccc", x: 0, y: 0, z: 0} ] 
+                                });
+
+</script>
+
 ## Components
 
 This section includes a description of the sensors and chips included in 
