@@ -7,7 +7,7 @@ This receiver is based on the u-blox ZED-F9P chipset.
 <div style="text-align: center;"><img src="images/medea_3d.png" style="width: 400px;"></div>
 
 <script src="javascripts/stl_viewer.min.js"></script>
-<div id="stl_cont" style="width: 800px; height: 400px"></div>
+<div id="stl_cont" style="width: 800px></div>
 <script>
 	var stl_viewer=new StlViewer(document.getElementById("stl_cont"), 
                                 {   zoom: 100,
