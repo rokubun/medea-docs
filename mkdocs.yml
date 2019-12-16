@@ -24,3 +24,7 @@ extra:
       link: 'https://twitter.com/rokubn'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/rokubun/'
+plugins:
+    - search
+    - pdf-export:
+        combined: true
