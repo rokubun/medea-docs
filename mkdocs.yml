@@ -10,17 +10,11 @@ theme:
   custom_dir: 'custom'
   rokubun_url: 'https://www.rokubun.cat'
 nav:
-  - 'Description': index.md
-  - 'Log format': format.md
+  - Home: 'index.md'
+  - Quick start guide: 'quick_start_guide.md'
+  - Troubleshooting: 'troubleshooting.md'
 extra_css:
   - 'stylesheets/extra.css'
 repo_name: 'rokubun/medea-docs'
 repo_url: 'https://github.com/rokubun/medea-docs'
-extra:
-  social:
-    - type: 'globe'
-      link: 'https://www.rokubun.cat'
-    - type: 'twitter'
-      link: 'https://twitter.com/rokubn'
-    - type: 'linkedin'
-      link: 'https://www.linkedin.com/company/rokubun/'
+
