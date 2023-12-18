@@ -69,7 +69,7 @@
         </div>
   
         <!-- Button to open search dialogue -->
-        <div class="md-flex__cell md-flex__cell--shrink">
+        <div class="md-flex__cell md-flex__cell--shrink search">
           {%- if "search" in config["plugins"] -%}
             <label class="md-icon md-icon--search md-header-nav__button"
                 for="__search"></label>
@@ -81,7 +81,7 @@
   
         <!-- Repository containing source -->
         {%- if config.repo_url -%}
-          <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-flex__cell md-flex__cell--shrink repo">
             <div class="md-header-nav__source">
               {%- include "partials/source.html" -%}
             </div>

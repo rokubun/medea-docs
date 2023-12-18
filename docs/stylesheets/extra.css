@@ -1,14 +1,20 @@
+.md-flex{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
 .md-footer-nav__inner{
     display: none;
 } 
 
 .md-header-nav__button.md-logo * {
     width: 135px;
+    margin-left: 1rem;
 }
 
 .md-header-nav__button.md-rokubun-logo * {
     width: 43px;
-    margin-top: -0.5rem;
     height: 43px;
 }
 
@@ -19,4 +25,12 @@
     .md-nav__button img {
         width: 2em;
     }
+}
+
+.repo {
+    margin-left: 1rem;
+}
+
+.search {
+    margin-left: auto;
 }
