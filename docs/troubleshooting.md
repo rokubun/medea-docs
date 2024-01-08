@@ -1,3 +1,21 @@
+## Convert from rbf to Rinex v3
+
+### Using JASON GNSS Converter
+
+[JASON GNSS Converter](https://jason.rokubun.cat/converter) is free to use, but it requries having an account.
+
+ 1. Choose or drop the rbf file.
+ 2. Press *CONVERT FILE* button.
+ 3. Press *DOWNLOAD RESULTS (.ZIP)* button.
+
+<img src="/images/jason_converter.png" style="width: auto; border: 1px solid black;" />
+
+### Using RTKLIB
+Use the following command from [RTKLIB]( https://rtklib.com/):
+
+`convbin -r ubx -f 10 -scan -v 3 -od -os <file_to_convert.rbf>`
+
+
 ## Change country
 
 Steps to change the country assigned to the device, which is used in the filename of the generated RINEX files.
