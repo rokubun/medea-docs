@@ -12,6 +12,7 @@ theme:
 nav:
   - Home: 'index.md'
   - Quick start guide: 'quick_start_guide.md'
+  - Flashing an image: 'flash_image_guide.md'
   - Troubleshooting: 'troubleshooting.md'
 extra_css:
   - 'stylesheets/extra.css'
