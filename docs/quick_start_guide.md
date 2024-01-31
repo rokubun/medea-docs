@@ -11,7 +11,7 @@ Remove the protective cover from the center SMA connector and connect the other 
 Once the SMA, Ethernet and USB-C connectors are connected, plug the power supply into an AC wall socket.
 <div style="margin: 2rem"></div>
 
-<img src="/images/quick_start_guide-04.png" style="width: auto; border: 1px solid black;" />
+<img src="/images/boot.gif" style="width: auto; border: 1px solid black;" />
 The CPU LED (blue) will blink in a heartbeat pattern indicating the device is up and running, while the other four leds remain red. 
 After a few seconds the NET LED should turn green, indicating the device has a valid IP address and can connect to the internet.
 <div style="margin: 2rem"></div>

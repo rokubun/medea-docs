@@ -25,7 +25,7 @@ The button is somewhat difficult to press, and the 'click' feeling is very soft.
 <div style="margin: 2rem"></div>
 
 <img src="/images/flashing_procedure-04.png" style="width: auto; border: 1px solid black;" />
-**Without releasing the button**, insert the USB-C cable to power on the device. When booting from the micro SD card, the **CPU LED will light steady blue** after a second or so.<br>
+**Without releasing the button**, insert the USB-C cable to power on the device. When booting from the micro SD card, the **CPU LED will light steady blue** after a second or so. Once this occurs, you can release the button.<br>
 
 **If you experience any issues, please consider the following troubleshooting steps:**
 
@@ -34,5 +34,7 @@ The button is somewhat difficult to press, and the 'click' feeling is very soft.
 - If no LEDs light up at all (and you are pressing the correct button), attempt the process with another SD card.
 <div style="margin: 2rem"></div>
 
-<img src="/images/flashing_procedure-05.png" style="width: auto; border: 1px solid black;" />
-After a few seconds, the installation process begins. The device LEDs FIX, LOG, and NET will blink in the pattern shown in the image. The Operating System installation typically takes between 2 to 5 minutes, varying based on the quality and wear of the SD card. Upon completion of the process, the three LEDs will illuminate in green for a brief period, and the device will then reboot using the installed operating system.
+<img src="/images/flash_cpu.gif" style="width: auto; border: 1px solid black;" />
+After a few seconds, the installation process begins. The device LEDs FIX, LOG, and NET will blink in the pattern shown above.
+
+The Operating System installation typically takes between 2 to 5 minutes, varying based on the quality and wear of the SD card. Upon completion of the process, the three LEDs will illuminate in green for a brief period, and the device will then reboot using the installed operating system.
