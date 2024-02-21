@@ -28,7 +28,10 @@ A pop up window will appear and you will be able to select the `ACORN` network (
 
 ![ACORN data selection](../images/amic/amic_03_gssc_acorn_selection.png)
 
-Once the data collection has been selected, only the RINEX files from the network will be displayed. You will be able to download the files by selecting the files and download them.
+Once the data collection has been selected, only the RINEX files from the network will be displayed (see picture below). You will be able to download the files by selecting the files and download them.
+
+![RINEX file selection](../images/amic/amic_04_gssc_acorn_files.png)
+
 
 ## References
 
