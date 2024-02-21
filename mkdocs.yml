@@ -14,6 +14,8 @@ nav:
   - Quick start guide: 'quick_start_guide.md'
   - Flashing an image: 'flash_image_guide.md'
   - Troubleshooting: 'troubleshooting.md'
+  - Medea in projects:
+    - AMIC: 'projects/amic.md'
 extra_css:
   - 'stylesheets/extra.css'
 repo_name: 'rokubun/medea-docs'
