@@ -1,0 +1,36 @@
+.md-flex{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.md-footer-nav__inner{
+    display: none;
+} 
+
+.md-header-nav__button.md-logo * {
+    width: 135px;
+    margin-left: 1rem;
+}
+
+.md-header-nav__button.md-rokubun-logo * {
+    width: 43px;
+    height: 43px;
+}
+
+@media only screen and (max-width: 76.1875em) {
+    .md-header-nav__button.md-icon--home, .md-header-nav__button.md-rokubun-logo {
+        display: none;
+    }
+    .md-nav__button img {
+        width: 2em;
+    }
+}
+
+.repo {
+    margin-left: 1rem;
+}
+
+.search {
+    margin-left: auto;
+}
