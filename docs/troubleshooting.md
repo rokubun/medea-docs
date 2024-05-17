@@ -1,7 +1,25 @@
+## Access Medea Dashboard
+### Using USB and a PC with Linux
+
+ 1. Go to the **network settings** in the Ubuntu settings.
+ 2. Find the USB *wired* interface listed as *USB Ethernet* or *Linux Ethernet*.
+ 3. Configure the interface in the **IPv4 tab**, and select the IPv4 Method as *Manual*.
+ 4. In Addresses, enter `10.0.0.2` as the **Address**, `255.255.255.0` as the **Netmask**, and `10.0.0.1` as the **Gateway**.
+  <img src="/images/network_settings.png" style="width: auto;" />
+ 5. Apply the changes.
+ 6. Turn off the interface toggle and then turn it back on.
+ 7. You can access the device dashboard by opening http://10.0.0.2 in your browser.
 ## Convert from rbf to Rinex v3
 
-### Using JASON GNSS Converter
+### Using Medea's Dashboard
 
+ 1. Connect to the MEDEA dashboard using a web browser as explained above.
+ 2. Go to the logger's page.
+ 3. On the RBF file element, press the button shown on the picture.
+ <img src="/images/rbf2rnx.png" style="width: auto; border: 1px solid black;" />
+ This option is only available if no remote service is selected in the Push datasets selector on the logger's page.
+
+### Using JASON GNSS Converter
 [JASON GNSS Converter](https://jason.rokubun.cat/converter) is free to use, but it requries having an account.
 
  1. Choose or drop the rbf file.
