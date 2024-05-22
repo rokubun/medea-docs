@@ -1,10 +1,11 @@
-# MEDEA Documentation Page
+# MEDEA Documentation
 
 <img src="/images/device.png"/>
 
 ## Overview
 
-The MEDEA GNSS computer is a device that combines a Linux enabled computer with a multi-frequency GNSS chipset, inertial sensors, and several expansion ports aimed at developing GNSS-enabled applications.
+The MEDEA GNSS computer is a device that combines a Linux enabled computer with a multi-frequency GNSS chipset, inertial 
+sensors, and several expansion ports aimed at developing GNSS-enabled applications.
 
 ## Hardware specs
 - Single core ARM cortex A-8  up to 1GHz, with MMU, FPU and NEON support.
