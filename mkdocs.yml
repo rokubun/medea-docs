@@ -1,4 +1,4 @@
-site_name: "MEDEA  documentation"
+site_name: "Documentation"
 site_url: "https://medea.docs.rokubun.cat"
 theme:
   name: material
@@ -7,7 +7,6 @@ theme:
   palette:
     primary: 'deep orange'
     accent: 'blue grey'
-  custom_dir: 'custom'
   rokubun_url: 'https://www.rokubun.cat'
 nav:
   - Home: 'index.md'
