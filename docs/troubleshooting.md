@@ -1,14 +1,16 @@
 ## Access Medea Dashboard
 ### Using USB and a PC with Linux
 
- 1. Go to the **network settings** in the Ubuntu settings.
- 2. Find the USB *wired* interface listed as *USB Ethernet* or *Linux Ethernet*.
- 3. Configure the interface in the **IPv4 tab**, and select the IPv4 Method as *Manual*.
- 4. In Addresses, enter `10.0.0.2` as the **Address**, `255.255.255.0` as the **Netmask**, and `10.0.0.1` as the **Gateway**.
+ 1. Connect your PC directly to the Medea's USB-C port using a USB cable.
+ 2. Go to the dashboard as described in step 5 of the [quick start guide](quick_start_guide.md) using the address http://medea-medea_ID.local. If it works, skip the other steps; you already have access to the dashboard.
+ 3. Go to the **network settings** in the Ubuntu settings.
+ 4. Find the USB *wired* interface listed as *USB Ethernet* or *Linux Ethernet*.
+ 5. Configure the interface in the **IPv4 tab**, and select the IPv4 Method as *Manual*.
+ 6. In Addresses, enter `10.0.0.2` as the **Address**, `255.255.255.0` as the **Netmask**, and `10.0.0.1` as the **Gateway**.
   <img src="/images/network_settings.png" style="width: auto;" />
- 5. Apply the changes.
- 6. Turn off the interface toggle and then turn it back on.
- 7. You can access the device dashboard by opening http://10.0.0.2 in your browser.
+ 7. Apply the changes.
+ 8. Turn off the interface toggle and then turn it back on.
+ 9. You can access the device dashboard by opening http://10.0.0.2 in your browser.
 ## Convert from rbf to Rinex v3
 
 ### Using Medea's Dashboard
