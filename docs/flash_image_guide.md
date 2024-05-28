@@ -12,10 +12,16 @@ If the Etcher softwar fails, or the device fails to boot, try using a different 
 <div style="margin: 2rem"></div>
 
 <img src="/images/flashing_procedure-01.png" style="width: auto; border: 1px solid black;" />
-Download and install the Etcher software. Once installed, choose the .sdcard file, select the target device, and then click 'Flash!' to create the micro SD card.<div style="margin: 2rem"></div>
+Download and install the Etcher software. Once installed, choose the .sdcard file, select the target device, and then click 'Flash!' to create the micro 
+SD card.
+
+NOTE: On windows computers etcher must be [run as administrator](https://learn.microsoft.com/en-us/troubleshoot/windows-server/shell-experience/use-run-as-start-app-admin), otherwise sometimes the flash fails.
+
+
+<div style="margin: 2rem"></div>
 
 <img src="/images/flashing_procedure-02.png" style="width: auto; border: 1px solid black;" />
-Insert the card with the contacts facing down. The slot is **push-push** (push until 'click' to insert the card, push until 'click' to remove the card)
+**With the device powered down**, insert the card with the contacts facing down. The slot is **push-push** (push until 'click' to insert the card, push until 'click' to remove the card)
 <div style="margin: 2rem"></div>
 
 <img src="/images/flashing_procedure-03.png" style="width: auto; border: 1px solid black;" />
@@ -37,4 +43,4 @@ The button is somewhat difficult to press, and the 'click' feeling is very soft.
 <img src="/images/flash_cpu.gif" style="width: auto; border: 1px solid black;" />
 After a few seconds, the installation process begins. The device LEDs FIX, LOG, and NET will blink in the pattern shown above.
 
-The Operating System installation typically takes between 2 to 5 minutes, varying based on the quality and wear of the SD card. Upon completion of the process, the three LEDs will illuminate in green for a brief period, and the device will then reboot using the installed operating system.
+The Operating System installation typically takes between 2 to 5 minutes, varying based on the quality and wear of the SD card. Upon completion of the process, the three LEDs will illuminate in green for a brief period, and the device will then reboot using the installed operating system. The SD card can be removed now.
